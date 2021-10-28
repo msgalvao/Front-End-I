@@ -1,0 +1,52 @@
+body {
+
+background-color: #131313;
+
+}
+
+h1 {
+
+color: white;
+font-family: 'Roboto';
+
+}
+
+.media-picture {
+
+background-image: url('https://64.media.tumblr.com/9a8cfee8d8b8cb1964ef92fd34ac8673/05c19963b3d6a44d-62/s1280x1920/fefee9a5370de848745120e84fdd10be91d96059.jpg');
+background-size: cover;
+background-position: center;
+height: 400px;
+width: 100%;
+
+}
+
+.review-score {
+
+     color: #f7f7f5;
+     background-color: #59be6a;
+     padding: 12px;
+     font-style: italic;
+
+}
+
+h2 {
+
+    color: #f5deb3;
+    
+}
+
+p {
+
+    color: #4682b4; 
+    font-family: 'Roboto Regular';
+
+}
+
+a {
+
+color: yellow;
+
+}
+
+
