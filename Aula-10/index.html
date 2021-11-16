@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>Document</title>
+ </head>
+
+ <body>
+
+
+     <main>
+
+
+         <form>
+
+             <h1>Cadastro do Agiota</h1>
+
+             <div>
+
+                 <label for="username">Nome do Usuário</label> <!-- o 'for' se linka com o 'Id' no 'input' -->
+                 <input type="text" name="username" id="username" placeholder="kkkkkkk">
+                 <!-- action="" method="" usado junto com o form, mas será visto mais a frente-->
+                 <!-- placeholder traz um texto fantasma pra dentro do campo -->
+
+             </div>
+
+             <div>
+
+                 <label for="">email</label>
+                 <input type="email" name=email id="email">
+
+             </div>
+
+
+             <div>
+
+                 <label for="senhadouser">Senha</label>
+                 <input type="password" name=senhadouser id="senhadouser">
+
+
+             </div>
+
+
+             <div>
+
+                 <label for="userrate">Depoimento</label>
+                 <textarea name="userrate" id="userrate" cols="30" rows="10"></textarea>
+
+             </div>
+
+             <div>
+
+                 <label for="userPlan">Plano</label>
+                 <select name="userPlan" id="userPlan">
+                     <option value="1">Básico</option>
+                     <option value="2">Médio</option>
+                     <option value="3">Premium</option>
+                 </select>
+
+             </div>
+
+             <div>
+
+                 <button type="reset">Limpar</button>
+                 <button type="submit">Cadastrar</button>
+
+             </div>
+
+
+
+         </form>
+
+     </main>
+
+
+
+ </body>
+
+ </html>

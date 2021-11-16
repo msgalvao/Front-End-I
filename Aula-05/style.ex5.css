@@ -1,0 +1,43 @@
+body {
+
+background-color: rgb(179, 177, 174);
+color: rgb(252, 252, 44);
+font-family: ;
+}
+
+h1 {
+
+color: #808080;
+font-family: 'Courier New', Courier, monospace;
+font-size: 32px;
+
+}
+
+h2 {
+
+font-size: 20px;
+
+}
+
+.job-title {
+
+background-color: rgb(74, 0, 128);
+color: ;
+font-size: ;
+font-weight: ;
+padding: ;
+
+}
+
+#high {
+    color: #f0e68c;
+}
+
+ul {
+
+background-color: #fffacd;
+color: ;
+padding: 10px;
+
+}
+
