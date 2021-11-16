@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: 'njnaruto';
-    src: url('C:\Users\Bruno Abidal\Desktop\DH\Node\Node\Front-End-I\Checkpoint I\Assets');
+    src: url('./Assets/njnaruto.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -14,10 +14,11 @@
 }
 
 body {
-  background-image: url("https://i.ibb.co/7bxjmzm/630463.jpg");
-  /* background-size: cover; */
+  background-image: url("https://www.wallpapertip.com/wmimgs/33-336738_konoha-background.jpghttps://i.ibb.co/7bxjmzm/630463.jpg");
+  background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 2500px 940px;
+  /* background-size: 2500px 940px; */
   background-color: #000;
   background-attachment: fixed;
 }
@@ -36,7 +37,7 @@ main {
   font-size: 20px;
   color: white;
   padding: 50px 100px;
-  font-family: "njnaruto";
+  font-family:sans-serif
 }
 
 h1,
@@ -44,9 +45,7 @@ h2 {
   font-family: "njnaruto";
 }
 
-p {
-  font-family: "njnaruto";
-}
+
 
 iframe {
   width: 1280px;
@@ -55,7 +54,7 @@ iframe {
 }
 
 ul {
-  list-style: none;
+  
 }
 
 img {
